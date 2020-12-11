@@ -10,7 +10,14 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+requirements = [
+	'lxml>=4.6.2<5',
+	'cssselect>=1.1.0<2'
+	'beautifulsoup4>=4.9.3<5',
+	'readability-lxml>=0.8.1',
+	'html2text>=2020.1.16',
+	'html-telegraph-poster>=0.2.31',
+]
 
 setup_requirements = ['pytest-runner', ]
 
